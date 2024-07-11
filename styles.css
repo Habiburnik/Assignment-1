@@ -245,3 +245,66 @@ nav .btn-top {
 .color3 {
     background-color: rgba(255, 223, 0, 0.05);
 }
+
+/* support */
+
+.support {
+    width: 1500px;
+    height: 414px;
+    background-position: center;
+    background-size: cover;
+    margin: 50px auto;
+    border-radius: 16px;
+    background-image: linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%),
+        url("./assets/handshake.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support h3 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.support p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    width: 900px;
+    margin-bottom: 20px;
+}
+
+.support input {
+    height: 70px;
+    width: 550px;
+    border-radius: 8px;
+}
+
+.support button {
+    height: 70px;
+    width: 120px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.support ::placeholder {
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    /* font-weight: 400; */
+    padding: 0px 20px;
+}
+
+.placeholder-box{
+    text-align: center;
+}

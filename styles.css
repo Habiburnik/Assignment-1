@@ -36,6 +36,7 @@
 /* navbar */
 nav {
     height: 80px;
+    margin: 0px auto;
 }
 
 nav ul {
@@ -54,6 +55,7 @@ nav .btn-top {
     font-family: Azeret Mono;
     font-size: 20px;
     padding: 10px;
+    cursor: pointer;
 }
 
 /* banner */
@@ -61,6 +63,10 @@ nav .btn-top {
 .banner {
     height: 652px;
     background-image: url('./assets/Hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px auto;
 }
 
 .banner-content {
@@ -94,6 +100,7 @@ nav .btn-top {
     background-color: black;
     color: white;
     padding: 10px;
+    cursor: pointer;
 }
 
 /* why web development */
@@ -144,6 +151,7 @@ nav .btn-top {
     font-size: 15px;
     padding: 10px;
     margin-top: 25px;
+    cursor: pointer;
 }
 
 .layer-paragraph {
@@ -152,6 +160,7 @@ nav .btn-top {
     font-size: 16px;
     font-weight: 400;
     padding: 30px 0px;
+    line-height: 26px;
 }
 
 .reverse {
@@ -175,6 +184,7 @@ nav .btn-top {
     width: 1500px;
     border: 1px solid black;
     border-radius: 10px;
+    margin-top: 30px;
 }
 
 .video-container iframe {
@@ -186,7 +196,8 @@ nav .btn-top {
 .current-target {
     text-align: center;
     width: 1500px;
-    margin: 0px auto;
+    margin: 100px auto;
+
 }
 
 .target-container {
@@ -261,6 +272,7 @@ nav .btn-top {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
 .support h3 {
@@ -281,13 +293,14 @@ nav .btn-top {
 }
 
 .support input {
-    height: 70px;
-    width: 550px;
+    height: 100%;
+    width: 850px;
     border-radius: 8px;
+    font-size: 20px;
 }
 
 .support button {
-    height: 70px;
+    height: 100%;
     width: 120px;
     border-radius: 8px;
     cursor: pointer;
@@ -301,10 +314,41 @@ nav .btn-top {
     color: rgba(13, 19, 33, 0.4);
     font-family: Azeret Mono;
     font-size: 16px;
-    /* font-weight: 400; */
+    font-weight: 400;
     padding: 0px 20px;
 }
 
-.placeholder-box{
+.placeholder-box {
     text-align: center;
+    height: 50px;
+}
+
+footer {
+    border-radius: 16px;
+    height: 30px;
+    background-color: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+}
+
+.icon-container{
+    display: flex;
+    gap: 10px;
+}
+
+footer i{
+    font-size: 40px;
+}
+
+.fa-facebook{
+    color: RGB(66, 103, 178);
+}
+
+.fa-linkedin{
+    color: RGB(0, 119, 181);
+}
+
+.fa-github{
+    color: black;
 }
